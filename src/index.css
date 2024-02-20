@@ -1,0 +1,21 @@
+.columns-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.person-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.selected-person {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
